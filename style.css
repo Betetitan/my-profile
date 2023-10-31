@@ -1,0 +1,41 @@
+* {
+  color: rgb(30, 30, 30);
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: arial;
+}
+
+.text-container img:first-of-type {
+  border-radius: 100%;
+}
+
+.text-container {
+  background-color: lightgray;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.text-container h2:first-child {
+  background-color: darkgray;
+  color: white;
+  padding: 10px; /* Ajuste la taille du padding selon tes préférences */
+  border-radius: 8px;
+  margin-bottom: 10px; /* Ajoute un espace en bas du bandeau */
+}
+
+.paragraph-container {
+  background-color: lightgrey;
+  border-radius: 8px;
+}
+
+.paragraph-container img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.paragraph-container img:hover {
+  transform: scale(1.6);
+}
+
